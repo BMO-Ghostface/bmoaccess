@@ -1,0 +1,17 @@
+{
+  "image": "ipfs://QmUey7vtutgJ8k3VdaMaewvjVxRaZKmKAHxLJ3CjZ51mDq",
+  "attributes": [
+    { "trait_type": "background", "value": "red" },
+    { "trait_type": "type", "value": "charcoal mfer" },
+    { "trait_type": "eyes", "value": "regular eyes" },
+    { "trait_type": "mouth", "value": "smile" },
+    { "trait_type": "headphones", "value": "pink headphones" },
+    { "trait_type": "hat under headphones", "value": "knit dallas" }
+  ],
+  "creators": [
+    {
+      "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
+      "share": 100
+    }
+  ]
+}

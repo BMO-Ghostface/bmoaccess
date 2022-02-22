@@ -1,0 +1,19 @@
+{
+  "image": "ipfs://QmSE1mNTQLXopVCKWjKRafi4MQ4ctWqCYi9Ma7vA1XF13e",
+  "attributes": [
+    { "trait_type": "background", "value": "yellow" },
+    { "trait_type": "type", "value": "plain mfer" },
+    { "trait_type": "eyes", "value": "purple shades" },
+    { "trait_type": "mouth", "value": "smile" },
+    { "trait_type": "headphones", "value": "black headphones" },
+    { "trait_type": "short hair", "value": "mohawk pink" },
+    { "trait_type": "smoke", "value": "cig white" },
+    { "trait_type": "shirt", "value": "hoodie down white" }
+  ],
+  "creators": [
+    {
+      "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
+      "share": 100
+    }
+  ]
+}

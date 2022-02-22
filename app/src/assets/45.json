@@ -1,0 +1,19 @@
+{
+  "image": "ipfs://QmYqRa3DVfMZ6q6cws9GcKQbC8VARB9Lg1cT5KokXpe8k6",
+  "attributes": [
+    { "trait_type": "background", "value": "red" },
+    { "trait_type": "type", "value": "charcoal mfer" },
+    { "trait_type": "eyes", "value": "regular eyes" },
+    { "trait_type": "mouth", "value": "smile" },
+    { "trait_type": "headphones", "value": "white headphones" },
+    { "trait_type": "hat under headphones", "value": "knit pittsburgh" },
+    { "trait_type": "smoke", "value": "cig white" },
+    { "trait_type": "shirt", "value": "hoodie down gray" }
+  ],
+  "creators": [
+    {
+      "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
+      "share": 100
+    }
+  ]
+}
