@@ -1,8 +1,5 @@
-
 {
-  "name": "Solana Mphers",
-  "symbol": "SMF",
-  "image": "0.png",
+  "image": "ipfs://QmaEaHAZK98sZnXxQBVrESjBKuKV9zfD5B83iFz9qcsZKL",
   "attributes": [
     { "trait_type": "background", "value": "red" },
     { "trait_type": "type", "value": "plain mfer" },
@@ -13,17 +10,11 @@
     { "trait_type": "hat under headphones", "value": "knit buffalo" }
   ],
   "properties": {
-    "files": [
-      {
-        "uri": "0.png",
-        "type": "image/png"
-      }
-    ],
-    "creators": [
-      {
-        "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
-        "share": 100
-      }
-    ]
-  }
+  "creators": [
+    {
+      "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
+      "share": 100
+    }
+  ]
+}
 }

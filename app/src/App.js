@@ -1,24 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React,{ useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
-
-
-
+import CandyMachine from './CandyMachine';
 
 // Constants
 const TWITTER_HANDLE = 'maktubhq';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
+
   // State
 const [walletAddress, setWalletAddress] = useState(null);
-  
-  // Actions
 
   /*
   * Declare your function
   */
-  // Actions
   const checkIfWalletIsConnected = async () => {
     try {
       const { solana } = window;
@@ -45,32 +41,31 @@ const [walletAddress, setWalletAddress] = useState(null);
     }
   };
 
-/*
+  /*
    * Let's define this method so our code doesn't break.
    * We will write the logic for this next!
    */
-const connectWallet = async () => {
-  const { solana } = window;
+  const connectWallet = async () => {
+    const { solana } = window;
 
   if (solana) {
     const response = await solana.connect();
     console.log('Connected with Public Key:', response.publicKey.toString());
     setWalletAddress(response.publicKey.toString());
   }
-};
-
-/*
- * We want to render this UI when the user hasn't connected
- * their wallet to our app yet.
- */
-const renderNotConnectedContainer = () => (
-  <button
-    className="cta-button connect-wallet-button"
-    onClick={connectWallet}
-  >
-    Connect to Wallet
-  </button>
-);
+  };
+  /*
+   * We want to render this UI when the user hasn't connected
+   * their wallet to our app yet.
+   */
+  const renderNotConnectedContainer = () => (
+    <button
+      className="cta-button connect-wallet-button"
+      onClick={connectWallet}
+    >
+      Connect to Wallet
+    </button>
+  );
 
   /*
    * When our component first mounts, let's check to see if we have a connected
@@ -88,12 +83,13 @@ const renderNotConnectedContainer = () => (
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">Mfers.S🍭L</p>
-          <p className="sub-text">Bringing our community to SOL with a twist</p>
+          <p className="header">MPHer.S🍭L</p>
+          <p className="sub-text">Bringing the community to Solana with a twist!.</p>
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
-
         </div>
+        {/* Check for walletAddress and then pass in walletAddress */}
+      {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
@@ -101,7 +97,7 @@ const renderNotConnectedContainer = () => (
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built by @${TWITTER_HANDLE}`}</a>
+          >{`built on @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>

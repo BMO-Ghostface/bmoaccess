@@ -1,9 +1,5 @@
-
-
 {
-  "name": "Solana Mphers",
-  "symbol": "SMF",
-  "image": "1.png",
+  "image": "ipfs://QmWmgfYhDWjzVheQyV2TnpVXYnKR25oLWCB2i9JeBxsJbz",
   "attributes": [
     { "trait_type": "background", "value": "red" },
     { "trait_type": "type", "value": "charcoal mfer" },
@@ -15,17 +11,11 @@
     { "trait_type": "shirt", "value": "collared shirt blue" }
   ],
   "properties": {
-    "files": [
-      {
-        "uri": "1.png",
-        "type": "image/png"
-      }
-    ],
-    "creators": [
-      {
-        "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
-        "share": 100
-      }
-    ]
-  }
+  "creators": [
+    {
+      "address": "Dz3spy7Me5Et3vZMTq7x29fVxGbLts6PdKirLEabeMm1",
+      "share": 100
+    }
+  ]
+}
 }
