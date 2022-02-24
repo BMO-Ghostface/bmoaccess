@@ -1,0 +1,40 @@
+{
+  "program": {
+    "uuid": "FrKWsA",
+    "candyMachine": "FrKWsAZGFnuFfhPboSWKqHQehDs8NMHJMzFniQx4r6sm"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/qNBtgAPfiCkf0ncCVGCLTmdNFLxKPF8ix_2vJjf53gQ",
+      "name": "Solana Mphers",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "1": {
+      "link": "https://arweave.net/XaBK0WATOAjKfFR98iak0Wy37WQjzAEbzDnpRzT1muw",
+      "name": "Solana Mphers",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "2": {
+      "link": "https://arweave.net/3e4o8CJnh-1b_DDTO8BmzpoAE7PD_FMgP9sUzapXotI",
+      "name": "Solana Mphers",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "3": {
+      "link": "https://arweave.net/4y8VB7rH3nEbSVxVM3kdlPdafX50uKq-uRSkDbLcV9A",
+      "name": "Solana Mphers",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "4": {
+      "link": "https://arweave.net/Sm_eRafILO_WMnonDvoNgQPwaWYEC25l3pt6U5Y86tQ",
+      "name": "Solana Mphers",
+      "onChain": true,
+      "verifyRun": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp"
+}
