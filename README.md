@@ -1,4 +1,4 @@
-# Mfer.Solana NFT Drop Project
+# BMO Access Pass Drop Project
 ### Welcome 👋
 To get started, clone this repo and follow these commands:
 
