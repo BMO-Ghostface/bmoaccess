@@ -1,0 +1,11 @@
+{
+  "name": "bmoaccess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BMO-Ghostface/bmoaccess.git",
+  "author": "elijahola <elijaho@wustl.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.44"
+  }
+}

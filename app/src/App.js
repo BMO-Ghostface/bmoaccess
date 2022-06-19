@@ -2,9 +2,10 @@ import React,{ useEffect, useState } from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
+import Background from '../src/assets/back.png'
 
 // Constants
-const TWITTER_HANDLE = 'maktubhq';
+const TWITTER_HANDLE = 'maktublabs';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -80,16 +81,24 @@ const [walletAddress, setWalletAddress] = useState(null);
   }, []);
 
   return (
+    
     <div className="App">
-      <div className="container">
+      
+      <div className="container" style={{ backgroundImage: `url(${Background})`, backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'}}>
+      
+      
+      
         <div className="header-container">
-          <p className="header">MPHer.S🍭L</p>
-          <p className="sub-text">Bringing the community to Solana with a twist!.</p>
-          {/* Add the condition to show this only if we don't have a wallet address */}
+        
+          
           {!walletAddress && renderNotConnectedContainer()}
-        </div>
+        
         {/* Check for walletAddress and then pass in walletAddress */}
       {walletAddress && <CandyMachine walletAddress={window.solana} />}
+</div>
+          
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
@@ -97,10 +106,11 @@ const [walletAddress, setWalletAddress] = useState(null);
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
+
   );
 };
 

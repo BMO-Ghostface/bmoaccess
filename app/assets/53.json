@@ -1,0 +1,20 @@
+{
+        "name": "BMO Access Pass",
+        "symbol": "BMO",
+        "image": "53.jpg",
+        "properties": {
+          "files": [
+            {
+              "uri": "53.jpg",
+              "type": "image/jpg"
+            }
+          ],
+          "creators": [
+            {
+              "address": "3J4jGgH5gadeC2ShRT9PAj1Y9diXvaLWv2zQMspsxDdk",
+              "share": 100
+            }
+          ]
+        },
+        "collection": { "name": "BMO Ghostface", "family": "Gen Zero" }
+      }
